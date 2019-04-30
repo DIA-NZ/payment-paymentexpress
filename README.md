@@ -1,12 +1,10 @@
 # SilverStripe Payment PaymentExpress Module
 
-**Work in progress, some changes to the API still to come**
-
 ## Maintainer Contacts
-*  [Frank Mullenger](https://github.com/frankmullenger)
+*  [Jonathan Alpers](https://github.com/sreplaj)
 
 ## Requirements
-* SilverStripe 3.0.x
+* SilverStripe 4.x
 * Payment module 1.0.x
 
 ## Documentation
