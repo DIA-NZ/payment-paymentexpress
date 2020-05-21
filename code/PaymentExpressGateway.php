@@ -50,6 +50,7 @@ class PaymentExpressGateway_PxPay extends PaymentGateway_GatewayHosted {
 
     $request->setUrlFail($this->cancelURL);
     $request->setUrlSuccess($this->returnURL);
+    $request->setUrlCallback($this->callbackURL);
 
     //Generate a unique identifier for the transaction
     $request->setTxnId($this->getTxnID());

@@ -213,6 +213,9 @@ class PxPayRequest extends PxPayMessage
 	function setUrlSuccess($UrlSuccess){
 		$this->UrlSuccess = $UrlSuccess;
 	}
+	function setUrlCallback($UrlCallback){
+		$this->UrlCallback = $UrlCallback;
+	}
 	function setAmountInput($AmountInput){
 		$this->AmountInput = sprintf("%9.2f",$AmountInput); 
 	}
