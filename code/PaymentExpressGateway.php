@@ -31,9 +31,9 @@ class PaymentExpressGateway_PxPay extends PaymentGateway_GatewayHosted {
   protected function onBeforeMakeRequest() {
 		$config = $this->getConfig();
 
-		$this->pxPayUrl    = Config::inst()->get('payment\\PaymentExpressGateway_PxPay', 'url');
-    $this->pxPayUserID = $config['authentication']['user_id'];
-    $this->pxPayKey    = $config['authentication']['key'];
+		$this->pxPayUrl    = $config['url'];
+	    $this->pxPayUserID = $config['authentication']['user_id'];
+    	$this->pxPayKey    = $config['authentication']['key'];
   }
   
   public function process($data) {
