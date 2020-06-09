@@ -15,7 +15,7 @@
 		"php": ">=7.1",
 		"silverstripe/cms": "4.*",
 		"silverstripe/framework": "4.*",
-		"dia-nz/payment": "1.09"
+		"dia-nz/payment": "1.10"
 	},
 	"repositories": [
 		{
